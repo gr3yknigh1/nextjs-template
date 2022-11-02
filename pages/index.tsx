@@ -1,3 +1,4 @@
+import styles from '@styles/Index.module.scss'
 import Head from 'next/head'
 
 
@@ -9,8 +10,8 @@ export default function Index() {
         <meta name="description" content="NextJS template" />
       </Head>
 
-      <main>
-        Hello world!
+      <main className={styles.main}>
+        Hello
       </main>
     </>
   )
